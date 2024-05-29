@@ -1,0 +1,106 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f4;
+    margin: 0;
+    padding: 0; /* Remove padding to allow full-width */
+}
+
+.container {
+    width: 100vw; /* Set to full viewport width */
+    margin: 0 auto; /* Center the container */
+    background: #ffffff;
+    padding: 60px 0; /* Top and bottom padding only */
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden; /* Clear floats */
+}
+
+.heading {
+    color: #333;
+    text-align: center;
+}
+/* Style for the checkout items */
+.checkout-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 10px;
+    justify-items: center;
+    margin-bottom: 30px;
+}
+
+.checkout-item {
+    border: 1px solid #ccc;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    padding: 10px;
+    width: 100%; /* Smaller width */
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.checkout-item img {
+    width: 60%; /* Smaller image */
+    height: auto;
+    object-fit: cover;
+}
+/* Style for the credit card form and buttons */
+/* Style for the credit card form and buttons */
+.payment-section {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 30px;
+}
+
+.credit-card-form {
+    display: flex;
+    flex-grow: 1;
+    align-items: center;
+    margin-right: 10px;
+}
+
+.credit-card-form label {
+    margin-right: 10px;
+}
+
+.credit-card-form input[type="text"] {
+    flex-grow: 1;
+    margin-right: 10px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.pay-btn, .cancel-btn {
+    padding: 10px 20px;
+    border: none;
+    cursor: pointer;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.pay-btn {
+    background-color: #4CAF50;
+    color: white;
+}
+
+.cancel-btn {
+    background-color: #f44336; /* Red color */
+    color: white;
+    margin-left: 1em; /* Add margin to separate the buttons */
+}
+
+
+@media (max-width: 960px) {
+    .checkout-item {
+        width: 100%; /* Full width */
+    }
+}
+
+@media (max-width: 640px) {
+    .checkout-item {
+        width: 100%; /* Full width */
+    }
+}

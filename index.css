@@ -1,0 +1,50 @@
+.main{
+
+    width:40%;
+    box-shadow: 1px 1px 10px silver;
+    margin-top: 45px;
+    padding: 400px;
+    font-family: "Playfair Display", serif;
+
+}
+h2{
+    font-family: "Playfair Display", serif;
+}
+input{
+    margin-bottom: 8px;
+    width: 40%;
+    padding: 5px;
+    font-family: "Playfair Display", serif;
+    font-size: 18 px;
+    font-weight: bold;
+}
+button{
+ border:none;
+ padding: 10px;
+ width: 40%;
+ font-weight: bolder;
+ font-size: 18px;
+ background-color: #1AC15C;
+ cursor: pointer;
+ font-family: "Playfair Display", serif;
+ margin-bottom: 15px;
+}
+label{
+    padding: 10px;
+    cursor: pointer;
+    font-weight: bolder;
+    font-size: 18px;
+    background-color: #1F87CF;
+    color: white;
+    font-family: "Playfair Display", serif;
+
+
+}
+a{
+ text-decoration: none;
+ font-size: 20px;
+ color: tomato;
+ font-family: "Playfair Display", serif;
+ font-weight: bold;
+}
+
